@@ -1,0 +1,33 @@
+package java.basic.bai2;
+
+import java.awt.PageAttributes.OriginType;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class MainScreen {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Nhap vao so nguyen N");
+		int n = scanner.nextInt();
+		if (n >0) {
+			int totalEventNumber = 0, totalOddNumber =0, count =0;
+			for (int number = 0; number<= n; number++) {
+				if (number%2 == 0) {
+					totalEventNumber = totalEventNumber +number;
+				}else {
+					totalOddNumber = totalOddNumber+ number;
+				}
+				
+				if (number % 2!= 0 && number %3== 0) {
+					
+				}
+			}
+			
+		}else {
+			System.out.println("Vui long nhap so > 0");
+		}
+
+	}
+
+}

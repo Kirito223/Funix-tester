@@ -1,0 +1,14 @@
+package lab5.google.testcase;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.BeforeMethod;
+public class TC001_google {
+
+	private ChromeDriver driver;
+	
+	@BeforeMethod
+	public void init() {
+		
+		driver = new ChromeDriver();
+	}
+
+}

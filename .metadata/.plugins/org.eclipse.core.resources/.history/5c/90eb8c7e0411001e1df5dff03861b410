@@ -1,0 +1,53 @@
+package lab4.bai2;
+
+import java.util.Scanner;
+
+public class HocSinh extends Person implements IHienThi {
+	private String giaoVienChuNhiem, lopHoc, thoiKhoaBieu;
+
+	@Override
+	public void nhapThongTin(Scanner scanner) {
+		super.nhapThongTin(scanner);
+		System.out.println("Nhap giao vien chu nhiem");
+		this.giaoVienChuNhiem = scanner.nextLine();
+		System.out.println("Nhap lop hoc");
+		this.lopHoc = scanner.nextLine();
+	}
+
+	public String getGiaoVienChuNhiem() {
+		return giaoVienChuNhiem;
+	}
+
+	public void setGiaoVienChuNhiem(String giaoVienChuNhiem) {
+		this.giaoVienChuNhiem = giaoVienChuNhiem;
+	}
+
+	public String getLopHoc() {
+		return lopHoc;
+	}
+
+	public void setLopHoc(String lopHoc) {
+		this.lopHoc = lopHoc;
+	}
+
+	public String getThoiKhoaBieu() {
+		return thoiKhoaBieu;
+	}
+
+	public void setThoiKhoaBieu(String thoiKhoaBieu) {
+		this.thoiKhoaBieu = thoiKhoaBieu;
+	}
+
+	@Override
+	public void hienThiThoKhoaBieu() {
+		System.err.println(this.thoiKhoaBieu);
+
+	}
+
+	@Override
+	public void hienThiThongTinLop() {
+		System.out.println(this.lopHoc);
+
+	}
+
+}

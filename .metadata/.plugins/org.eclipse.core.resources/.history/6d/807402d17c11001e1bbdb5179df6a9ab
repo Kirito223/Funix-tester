@@ -1,0 +1,64 @@
+package basic.bai3;
+
+import java.util.Scanner;
+
+public class Student {
+private String fullName, address , dob , gender  ;
+private float finalGrade ;
+
+public void inputInfomation(Scanner scanner) {
+	System.out.println("Input fullname");
+	this.fullName = scanner.nextLine();
+	
+	System.out.println("Input address");
+	this.address = scanner.nextLine();
+	
+	System.out.println("Input dob");
+	this.dob = scanner.nextLine();
+	
+	System.out.println("Input gender");
+	this.gender = scanner.nextLine();
+	
+	
+	System.out.println("Input finalGrade");
+	this.finalGrade =Float.parseFloat(scanner.nextLine());
+	
+}
+
+public void showInfomation() {
+	System.out.println("FullName: "+ this.fullName);
+	System.out.println("Address: "+ this.address);
+	System.out.println("DOB: "+ this.dob);
+	System.out.println("Gender: "+ this.gender);
+}
+public String getFullName() {
+	return fullName;
+}
+public void setFullName(String fullName) {
+	this.fullName = fullName;
+}
+public String getAddress() {
+	return address;
+}
+public void setAddress(String address) {
+	this.address = address;
+}
+public String getDob() {
+	return dob;
+}
+public void setDob(String dob) {
+	this.dob = dob;
+}
+public String getGender() {
+	return gender;
+}
+public void setGender(String gender) {
+	this.gender = gender;
+}
+public float getFinalGrade() {
+	return finalGrade;
+}
+public void setFinalGrade(float finalGrade) {
+	this.finalGrade = finalGrade;
+}
+}

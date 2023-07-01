@@ -1,0 +1,7 @@
+package lab5.google.testcase;
+import org.openqa.selenium.chrome.*;
+public class TC001_google {
+
+	private ChormeDriver driver;
+
+}

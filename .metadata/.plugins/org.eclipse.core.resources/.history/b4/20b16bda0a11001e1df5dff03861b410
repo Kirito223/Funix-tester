@@ -1,0 +1,55 @@
+package lab4.bai2;
+
+import java.util.Scanner;
+
+public class GiaoVien extends Person implements IHienThi {
+	private String lopChuNhiem, toBoMon, lichDay;
+
+	@Override
+	public void nhapThongTin(Scanner scanner) {
+
+		super.nhapThongTin(scanner);
+		System.out.println("Nhap lop chu nhiem");
+		this.lopChuNhiem = scanner.nextLine();
+		System.out.println("Nhap to bo mon");
+		this.toBoMon = scanner.nextLine();
+		System.out.println("Nhap lich day");
+		this.lichDay = scanner.nextLine();
+	}
+
+	public String getLopChuNhiem() {
+		return lopChuNhiem;
+	}
+
+	public void setLopChuNhiem(String lopChuNhiem) {
+		this.lopChuNhiem = lopChuNhiem;
+	}
+
+	public String getToBoMon() {
+		return toBoMon;
+	}
+
+	public void setToBoMon(String toBoMon) {
+		this.toBoMon = toBoMon;
+	}
+
+	public String getLichDay() {
+		return lichDay;
+	}
+
+	public void setLichDay(String lichDay) {
+		this.lichDay = lichDay;
+	}
+
+	@Override
+	public void hienThiThoKhoaBieu() {
+		System.out.println("Lich day: " + this.lichDay);
+
+	}
+
+	@Override
+	public void hienThiThongTinLop() {
+		System.out.println("lop chu nhiem" + this.lopChuNhiem);
+
+	}
+}

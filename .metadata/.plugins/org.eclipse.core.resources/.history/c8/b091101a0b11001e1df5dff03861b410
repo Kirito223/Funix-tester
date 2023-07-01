@@ -1,0 +1,42 @@
+package lab4.bai2;
+
+import java.util.Scanner;
+
+public class NhanVien extends Person {
+	private String phongBan, chucVu;
+
+	@Override
+	public void nhapThongTin(Scanner scanner) {
+		// TODO Auto-generated method stub
+		super.nhapThongTin(scanner);
+		System.out.println("Nhap phong ban");
+		this.phongBan = scanner.nextLine();
+		System.out.println("Nhap chuc vu");
+		this.chucVu = scanner.nextLine();
+	}
+
+	@Override
+	public void hienThiThongTin() {
+		// TODO Auto-generated method stub
+		super.hienThiThongTin();
+		System.out.println("phong ban: " + this.phongBan);
+		System.out.println("Chuc vu: "+ this.chucVu);
+	}
+
+	public String getPhongBan() {
+		return phongBan;
+	}
+
+	public void setPhongBan(String phongBan) {
+		this.phongBan = phongBan;
+	}
+
+	public String getChucVu() {
+		return chucVu;
+	}
+
+	public void setChucVu(String chucVu) {
+		this.chucVu = chucVu;
+	}
+
+}

@@ -1,0 +1,32 @@
+package lab4.bai2;
+
+import java.util.Scanner;
+
+public class NhanVien extends Person {
+	private String phongBan, chucVu;
+
+	@Override
+	public void nhapThongTin(Scanner scanner) {
+		// TODO Auto-generated method stub
+		super.nhapThongTin(scanner);
+		this.phongBan = scanner.nextLine();
+		this.chucVu = scanner.nextLine();
+	}
+
+	public String getPhongBan() {
+		return phongBan;
+	}
+
+	public void setPhongBan(String phongBan) {
+		this.phongBan = phongBan;
+	}
+
+	public String getChucVu() {
+		return chucVu;
+	}
+
+	public void setChucVu(String chucVu) {
+		this.chucVu = chucVu;
+	}
+
+}

@@ -1,0 +1,39 @@
+package basic.bai3;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class MainScreen {
+
+	public static void main(String[] args) {
+		ArrayList<Student> students = new ArrayList<Student>();
+		Scanner scanner = new Scanner(System.in);
+		while (true) {
+
+			String continues = "Y";
+			Student student = new Student();
+			student.inputInfomation(scanner);
+			System.out.println("Do you want to continue (Y/N)?");
+			continues = scanner.nextLine();
+			if (continues == "N") {
+				break;
+			}
+		}
+		
+		for (Student student : students) {
+			student.showInfomation();
+		}
+		
+		for (Student student : students) {
+			switch (key) {
+			case value: {
+				
+				yield type;
+			}
+			default:
+				throw new IllegalArgumentException("Unexpected value: " + key);
+			}
+		}
+	}
+
+}
