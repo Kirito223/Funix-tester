@@ -1,7 +1,0 @@
-package java.basic.bai1;
-
-public class MyMainClass {
-public static void main(String[] args) {
-	
-}
-}

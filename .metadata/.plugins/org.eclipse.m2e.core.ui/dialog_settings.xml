@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\XuanDuc\eclipse-workspace"/>
 			<item value="D:\Funix\STP304\src\lab3"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,12 +46,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="lab3.2"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="lab3.2"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -70,11 +69,15 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="LAB_7_SELENIUM"/>
+			<item value="LAB_6_SELENIUM"/>
 			<item value="lab5"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="LAB_7_SELENIUM"/>
+			<item value="LAB_6_SELENIUM"/>
 			<item value="lab5"/>
 		</list>
 		<list key="version">

@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<item key="filters_last_used" value=""/>
 	<section name="SearchDialog">
-		<item key="PREVIOUS_PAGE" value="org.eclipse.jdt.ui.JavaSearchPage"/>
+		<item key="PREVIOUS_PAGE" value="org.eclipse.egit.ui.commitSearchPage"/>
 	</section>
 	<section name="Search">
 		<list key="Search.processedPageIds">

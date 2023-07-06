@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T21:50:45 ICT" name="Suite" finished-at="2023-07-06T21:52:30 ICT" duration-ms="105378">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T21:50:45 ICT" name="Test" finished-at="2023-07-06T21:52:30 ICT" duration-ms="105378">
+      <class name="test.java.Lab7DemoTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:test.java.Lab7DemoTest@3c947bc5]" started-at="2023-07-06T21:50:45 ICT" name="init" finished-at="2023-07-06T21:50:46 ICT" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="TC01_LoginFirstAccount()[pri:0, instance:test.java.Lab7DemoTest@3c947bc5]" started-at="2023-07-06T21:50:46 ICT" name="TC01_LoginFirstAccount" finished-at="2023-07-06T21:51:39 ICT" duration-ms="53022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_LoginFirstAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.java.Lab7DemoTest@3c947bc5]" started-at="2023-07-06T21:51:39 ICT" name="takeScreenshot" finished-at="2023-07-06T21:51:40 ICT" duration-ms="1017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC01_LoginFirstAccount status=SUCCESS method=Lab7DemoTest.TC01_LoginFirstAccount()[pri:0, instance:test.java.Lab7DemoTest@3c947bc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method signature="TC02_LoginSecondAccount()[pri:0, instance:test.java.Lab7DemoTest@3c947bc5]" started-at="2023-07-06T21:51:40 ICT" name="TC02_LoginSecondAccount" finished-at="2023-07-06T21:52:29 ICT" duration-ms="48958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02_LoginSecondAccount -->
+        <test-method is-config="true" signature="takeScreenshot(org.testng.ITestResult)[pri:0, instance:test.java.Lab7DemoTest@3c947bc5]" started-at="2023-07-06T21:52:29 ICT" name="takeScreenshot" finished-at="2023-07-06T21:52:30 ICT" duration-ms="1007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC02_LoginSecondAccount status=SUCCESS method=Lab7DemoTest.TC02_LoginSecondAccount()[pri:0, instance:test.java.Lab7DemoTest@3c947bc5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+        <test-method is-config="true" signature="terminal()[pri:0, instance:test.java.Lab7DemoTest@3c947bc5]" started-at="2023-07-06T21:52:30 ICT" name="terminal" finished-at="2023-07-06T21:52:30 ICT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminal -->
+      </class> <!-- test.java.Lab7DemoTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="101.980">
+  <properties />
+  
+  
+            <testcase name="TC01_LoginFirstAccount" time="53.022" classname="test.java.Lab7DemoTest" />
+                <testcase name="TC02_LoginSecondAccount" time="48.958" classname="test.java.Lab7DemoTest" />
+      
+</testsuite>
