@@ -12,4 +12,8 @@
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
 		<item key="deleteSubPackages" value="false"/>
 	</section>
+	<section name="RefactoringWizard.Convert from JUnit">
+		<item key="width" value="600"/>
+		<item key="height" value="464"/>
+	</section>
 </section>
