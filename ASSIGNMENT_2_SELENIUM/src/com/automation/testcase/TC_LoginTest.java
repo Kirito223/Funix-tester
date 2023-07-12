@@ -10,6 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFCell;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -32,7 +33,7 @@ public class TC_LoginTest extends DriverInstance {
 		if (checkLogin) {
 			loginPage.clickLogout();
 		} else {
-			CaptureScreenshot.takeScreenshot(driver, "Login fail");
+			Assert.fail();
 		}
 	}
 
