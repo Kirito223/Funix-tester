@@ -69,6 +69,9 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="STP304x_ASM3_Ductqx21277"/>
+			<item value="lab_8"/>
+			<item value="Lab8"/>
 			<item value="ASSIGNMENT_2_SELENIUM"/>
 			<item value="LAB_7_SELENIUM"/>
 			<item value="LAB_6_SELENIUM"/>
@@ -77,6 +80,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="STP304x_ASM3_Ductqx21277"/>
+			<item value="lab_8"/>
+			<item value="Lab8"/>
 			<item value="ASSIGNMENT_2_SELENIUM"/>
 			<item value="LAB_7_SELENIUM"/>
 			<item value="LAB_6_SELENIUM"/>
