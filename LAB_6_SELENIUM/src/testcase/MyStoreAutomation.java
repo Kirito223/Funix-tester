@@ -34,7 +34,7 @@ public class MyStoreAutomation {
 	}
 	
 	@Test
-	public void TC_MyOderSearchValid() {
+	public void TC_MyOderSearchValid() throws InterruptedException {
 		keyword ="Stylish Dress";
 		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 		WebElement inputSearch = driver.findElement(By.id("search_product"));
@@ -70,6 +70,7 @@ public class MyStoreAutomation {
 		
 		WebElement addToCart = driver.findElement(By.xpath("//*[@class='features_items']/div[2]/div/div/div/a"));
 		Assert.assertEquals(true, addToCart.isDisplayed(), "Button add to cart not display");
+		Thread.sleep(500);
 		
         actions.sendKeys(addToCart,Keys.PAGE_DOWN).click(addToCart).build().perform();
 
