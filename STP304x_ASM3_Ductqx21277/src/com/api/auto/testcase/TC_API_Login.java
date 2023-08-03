@@ -55,7 +55,7 @@ public class TC_API_Login {
 		assertEquals(true, responseBody.asString().contains("token"), "Token field not found");
 		String token = jsonBody.getString("token");
 		if (token != null) {
-			PropertiesFileUtils.saveToken("token", token);
+			PropertiesFileUtils.saveToken("token", token);// Lay token
 		}
 	}
 

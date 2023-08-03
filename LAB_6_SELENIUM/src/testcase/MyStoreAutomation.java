@@ -42,7 +42,7 @@ public class MyStoreAutomation {
 		Assert.assertEquals(true, inputSearch.isDisplayed(), "Page load failed");
 		
 		Actions actions = new Actions(driver);
-		actions.sendKeys(inputSearch, keyword).build().perform();
+		actions.sendKeys(inputSearch, keyword).build().perform();// Nhap keyword vo o tim kiem
 		actions.click(driver.findElement(By.id("submit_search"))).build().perform();
 		
 		wait = new WebDriverWait(driver, Duration.ofSeconds(5));

@@ -69,6 +69,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="Final"/>
 			<item value="STP304x_ASM3_Ductqx21277"/>
 			<item value="lab_8"/>
 			<item value="Lab8"/>
@@ -80,6 +81,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Final"/>
 			<item value="STP304x_ASM3_Ductqx21277"/>
 			<item value="lab_8"/>
 			<item value="Lab8"/>

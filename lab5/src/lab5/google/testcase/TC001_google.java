@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -18,6 +19,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TC001_google {
 
 	public ChromeDriver driver;
+	String email = "duc@test.com";
 
 	@BeforeMethod
 	public void init() {
@@ -27,15 +29,19 @@ public class TC001_google {
 	}
 
 	@Test
-	public void TC001_GoogleSeach() {
+	public void TC001_GoogleSeach() throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		driver.get("https://www.google.com.vn/?hl=vi");
-		WebElement inputSearch = wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("APjFqb"))));
-		inputSearch.sendKeys("selenium");
-		WebElement btnSearch = driver.findElement(By.name("btnK"));
-		btnSearch.click();
-		
-
+		driver.get("https://courses.funix.edu.vn/login");
+		WebElement loginInput = driver.findElement(By.id("login-email"));
+		WebElement loginButton = driver.findElement(By.className("login-button"));
+		loginInput.sendKeys(email);		
+		loginButton.click();
+		Thread.sleep(500);
+		wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.cssSelector("ul.message-copy>li"))));
+		WebElement message = driver.findElement(By.cssSelector("ul.message-copy>li"));
+		String text = message.getText();
+		System.out.println("Ket qua: "+text);
+	
 	}
 
 	@AfterMethod
